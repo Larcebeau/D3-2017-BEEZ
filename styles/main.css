@@ -1,0 +1,104 @@
+
+/*-- #### Styles Pour La construction des pages #### */
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ol li {
+  border : 1px solid #000;
+  width : 160px;
+  margin : 6px;
+}
+
+li img {
+  width : 100%;
+}
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : center;
+  text-align : center;
+ text-transform: uppercase;
+ font-size: 2em;
+
+}
+
+#colors li {
+  height : 160px;
+  width : 160px;
+  border-radius: 8px;
+  color : #fff;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+#color-1 {
+ background-color: red;
+}
+
+#color-2 {
+ background-color: white;
+}
+
+#color-3 {
+ background-color: blue;
+}
+
+#color-4 {
+ background-color: green;
+}
+#color-5 {
+ background-color: rebeccapurple;
+}
+#color-6 {
+ background-color: black;
+}
+
+video {
+  max-width: 600px;
+  display : block;
+  margin : 50px auto;
+  border : 12px solid #000;
+}
+
+body {
+background-color: #ffffff;
+}
+
+header {
+  background: yellow;
+  padding: 42px;
+}
+
+nav{
+  border: 1px solid green;
+
+}
+
+nav ul {
+  border: 1px solid red;
+display: flex;
+justify-content: space-between;
+}
+
+nav li {
+  border: 1px solid black;
+
+}
+
+footer {
+  background-color: #454444;
+padding: 42px;
+bottom: 1px;
+
+}
+
+footer nav {
+  border: none;
+}
